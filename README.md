@@ -298,6 +298,10 @@ ___
 - Run github pages deploy script whenever you want to publish changes.
 
 ```bash
+npm run pages-worktree-init
+```
+
+```bash
 npm run deploy
 ```
 
