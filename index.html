@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.fa6d8376.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/resume/assets/apple-touch-icon.fa6d8376.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAhQEAACue2lLAAACu0lEQVRIx5WVS0gVURjHf3NmTHyUihGuyiyqZUTRIlxUREhkUAt3EVFte2EhmWSKUSYhtAhp0aIIsnJV4SJq0aI3uLIHZWWugigUr17vnX+Ledx5XA2/gZkz3znn9/2/75zDQahKrfqgOS3GcvqkNtUIS1Vc4gglIL7wjinyCM8KX9HATkqIWY5bnEGtmvWg99UgS7Zs2XISD6pSv7JJHVmdtzTKBoBR9iBOshKDwQrDWECOTt5TQQfHKY2rGCPIfUBGAyE6o5lIoBntFkJl6lImriFvcDzUXwz1PnaYJvbzOqLCAJChmx4yUQXGCVr50PeHC7wEKrnj0x2q/b5ZLpOjnfICIWi4oes3Ez4oHw7aju23s/Rxkek0QKGrkuUArI0sWwtHw/JlucaDsMdJA1ZwmHPUcaxAZxm9NDHCDBZfucv4/IBphslznQqGmWFzKL2SZpoBeMpgJOFCEB/RSws3+MhbumjmMWlTTG9CQZbnzDHGIzJMMcUr9rKwOfFfi100YBDQiMtG/mcJQAlnyKLIMZoM0WBYkpyQ+qebJ1gRREGbhc1GrmL5uHkAwZ5UOMybIKwUtCigg7NFontvg+PXZwHAM97gxuJb/tvCsIZ9C6fgcpOH4eZJqhBb2BGZHAN4bsMVTiSGRLXUsiyiLqHAc5axFLfIKng1KE15EwpcTjHky00DxFaGIqOLptBMXfSAJCq0nor5UghcB9gfi27561CweQDGj9HDC/+8ectlc5CWhI6iANvvnOAnBvwyCpdfiUTmcCO1d8h5f9W4fMOhnyzxM1+eAIzjsjTMx+Er6wAaqaeHDKswsSIq1OKlNUEf9WwLun+gtuDGGlR9eLWlHyMjI1uWVutecK3MqdNSDVc4hAPiMyNMksNN7YPgPNhUsom1XhHz3OY0QjVq15jcRV3vrr6rU7XiH0Jos5Ph7XavAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTAyLTIwVDA0OjAwOjAwKzAwOjAwQv1T0gAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wMi0yMFQwNDowMDowMCswMDowMDOg624AAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII=">
 		<link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmAhQDOzsmjXnSAAABNElEQVQoz1XRMWtUYRSE4ee7ezdusNcoCHHRxuiKgq2CCqK9reCfMKW9dgEFsbBTrCWV6B8wEQJZTZVKJYWNKQJm796xuEs2TnWKd+ac4ZTc82wy2rInOhUrznfjttWSLaN33junxlTlmwMvjTpkLO0kj/MpyXo+ZprkdeR6NpMkaSV/8ygb2cuF3MifJOtZjFzJlyRJBa1YtGzFALc8dd8JaxpUBBNvXLTgrTjpiQ/WxBR1d8uBbb9NjDX6ip7+rNMMGLhtF7UXCs5aUo4DRa2nKA5RNPyf0PphVzWDiTOKMgd6rjllrtMW5glF0diwM/NOtYZuHl9RVIZqRQzdUen7egSkKrV9hxrFVGOgh32VitTG9eW7Xlme1frlM/jpoZqdkgeeTy51785Ri2LJVf3vVv8BJgl+gj7yPTwAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDItMjBUMDM6NTk6NTkrMDA6MDBvtJm1AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAyLTIwVDAzOjU5OjU5KzAwOjAwHukhCQAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==">
 		<link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS01MTJ4NTEyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0KICAgIF0sCiAgICAidGhlbWVfY29sb3IiOiAiI2ZmZmZmZiIsCiAgICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJkaXNwbGF5IjogInN0YW5kYWxvbmUiCn0K">
-		<link rel="mask-icon" href="/assets/safari-pinned-tab.5d60c06f.svg" color="#5bbad5">
+		<link rel="mask-icon" href="/resume/assets/safari-pinned-tab.5d60c06f.svg" color="#5bbad5">
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
     <!-- <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" /> -->
 		<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <title>Resume | Sobrero</title>
 		
-    <script type="module" crossorigin src="/assets/index.6e2d1504.js"></script>
-    <link rel="modulepreload" href="/assets/vendor.e6ea08f6.js">
-    <link rel="stylesheet" href="/assets/index.3520247b.css">
+    <script type="module" crossorigin src="/resume/assets/index.6e2d1504.js"></script>
+    <link rel="modulepreload" href="/resume/assets/vendor.e6ea08f6.js">
+    <link rel="stylesheet" href="/resume/assets/index.3520247b.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
