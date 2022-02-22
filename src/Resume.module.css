@@ -35,8 +35,8 @@ html {
   justify-content: flex-start; */
 	flex-direction:row;
 
-	/* align-items:center; */
-	align-items:flex-end;
+	align-items:center;
+	/* align-items:flex-end; */
 
 	justify-content:space-between;
 
@@ -51,9 +51,9 @@ html {
 }
 
 
-.header > h3 {
+/* .header > h3 {
 	padding-bottom:2px;
-}
+} */
 
 h1, h3{
 	margin:auto;

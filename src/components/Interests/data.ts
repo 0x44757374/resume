@@ -1,4 +1,3 @@
-import {Icon} from '../Icons';
 export default [
 	{
 		name:"Mechanical Keyboards",
@@ -9,15 +8,15 @@ export default [
 		icon: "soldering"
 	},
 	{
+		name:"Family",
+		icon: "family"
+	},
+	{
 		name:"Gaming",
 		icon: "controller"
 	},
 	{
 		name:"Weight Lifting",
 		icon: "weights"
-	},
-	{
-		name:"Family",
-		icon: "family"
-	},
+	}
 ];
