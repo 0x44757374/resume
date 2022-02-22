@@ -1,7 +1,7 @@
 {
   "name": "solidjs-resume-template",
   "version": "0.0.1",
-  "description": "Dustin Sobrero solidjs resume template webapp",
+  "description": "Dustin Sobrero's SolidJS resume template webapp",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -9,7 +9,8 @@
     "serve": "vite preview",
 		"pages-worktree-init": "git worktree prune && rm -rf dist/* &&  git worktree add dist gh-pages",
     "assets": "cp -rf src/assets/ dist/assets/",
-    "deploy": "npm run assets && cd dist && git add --all && git commit -m 'gh-pages' && git push origin gh-pages"
+		"fix": "npm run assets && cd dist && sed 's|\"/assets/|\"/resume/assets/|g' index.html >> index.html.tmp && rm index.html && mv index.html.tmp index.html",
+    "deploy": "npm run fix && cd dist && git add --all && git commit -m 'gh-pages' && git push origin gh-pages"
   },
   "license": "MIT",
   "devDependencies": {
