@@ -19,18 +19,14 @@ const languages = [
 		name:"Bash",
 		icon:"terminal"
 	},
-	{
-		name:"Markdown",
-		icon: "markdown"
-	},
-	{
-		name:"HTML",
-		icon: "html"
-	},
-	{
-		name:"CSS",
-		icon: "css"
-	},
+	// {
+	// 	name:"HTML",
+	// 	icon: "html"
+	// },
+	// {
+	// 	name:"CSS",
+	// 	icon: "css"
+	// },
 	{
 		name:"C#",
 		icon: "csharp"
@@ -42,6 +38,10 @@ const frameworks = [
 	{
 		name:"React & React Native",
 		icon: "react"
+	},
+	{
+		name:"SolidJS",
+		icon:"solidjs"
 	},
 	{
 		name: "Unity",
@@ -57,6 +57,10 @@ const web = [
 	{
 		name:"Library Design & Packaging",
 		icon: "npm"
+	},
+	{
+		name:"Technical Documentation",
+		icon: "markdown"
 	},
 ] as {name:string, icon:string}[];
 
