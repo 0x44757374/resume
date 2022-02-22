@@ -1,6 +1,6 @@
 export default [
 	{
-		title: "Cloud Engineering Lead",
+		title: "Cloud and Applications Engineering Lead",
 		company: "SensorLogic",
 		location: "Remote",
 		dates: "2021 - Present",
@@ -8,7 +8,7 @@ export default [
 		bullets: [
 			// 'Prevented internal API downtime during peak traffic by implementing load balancing from reverse proxy server.',
 			'Reduced monthly cloud operation costs by 90% by transitioning non-production projects to high efficiency, lightweight virtual machines in a local cluster.',
-			'Automated cloud infrastructure build, deploy, and node management by creating a linux CLI.',
+			'Automated cloud infrastructure build, deploy, and node management by creating a Bash CLI.',
 			'Designed a turnkey, standalone XaaS solution for deploying a lightweight sensor cloud stack in developer, single instance, or distributed modes with less than 30 seconds of user input (down from roughly 45 minutes).',
 			// 'Designed a per-organization bandwidth, and storage metering solution for graph-based queries, and streaming data.',
 			'Limited data aggregation errors, and incompatibility-related crashes by more than 99% of previous occurrence rate by implementing streamlined firmware packaging and over-the-air update pipeline.',

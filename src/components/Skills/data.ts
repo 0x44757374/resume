@@ -1,4 +1,4 @@
-export default [
+const languages = [
 	{
 		name:"TypeScript",
 		icon: "typescript"
@@ -8,25 +8,59 @@ export default [
 		icon: "javascript"
 	},
 	{
-		name:"Relational Databases",
-		icon: "database"
+		name:"Embedded C",
+		icon: "chip"
 	},
 	{
 		name:"PostgreSQL",
 		icon: "postgres"
 	},
 	{
-		name:"Docker",
-		icon: "docker"
+		name:"Bash",
+		icon:"terminal"
 	},
 	{
-		name:"Building CLIs",
-		icon: "terminal"
+		name:"Markdown",
+		icon: "markdown"
 	},
 	{
-		name:"Embedded C",
-		icon: "chip"
+		name:"HTML",
+		icon: "html"
 	},
+	{
+		name:"CSS",
+		icon: "css"
+	},
+	{
+		name:"C#",
+		icon: "csharp"
+	},
+] as {name:string, icon:string}[];
+
+
+const frameworks = [
+	{
+		name:"React & React Native",
+		icon: "react"
+	},
+	{
+		name: "Unity",
+		icon: "unity"
+	},
+] as {name:string, icon:string}[];
+
+const web = [
+	{
+		name:"GraphQL API Design",
+		icon: "graphql"
+	},
+	{
+		name:"Library Design & Packaging",
+		icon: "npm"
+	},
+] as {name:string, icon:string}[];
+
+const deviceSpec = [
 	{
 		name:"IoT System Design",
 		icon: "accesspoint"
@@ -35,12 +69,26 @@ export default [
 		name:"Bluetooth FOTA, GATT",
 		icon: "bluetooth"
 	},
+] as {name:string, icon:string}[];
+
+const tools = [
 	{
-		name:"GraphQL API Design",
-		icon: "graphql"
+		name:"Docker",
+		icon: "docker"
 	},
 	{
-		name:"Nginx Networking & Scaling",
+		name:"Git",
+		icon: "git"
+	},
+	{
+		name:"GitHub",
+		icon: "github"
+	},
+] as {name:string, icon:string}[];
+
+const cloud = [
+	{
+		name:"Cloud Hosting & Scaling",
 		icon: "nginx"
 	},
 	{
@@ -52,33 +100,51 @@ export default [
 		icon: "graph"
 	},
 	{
-		name:"Library Building & Packaging",
-		icon: "npm"
+		name:"Relational Databases",
+		icon: "database"
 	},
 	{
-		name:"React & React Native",
-		icon: "react"
+		name: "User Authentication & Security",
+		icon: "authentication"
+	}
+] as {name:string, icon:string}[];
+// const a = [] as {name:string, icon:string}[];
+
+
+
+
+export default [
+	{
+		name:"Cloud",
+		items:cloud
 	},
 	{
-		name:"Markdown Docs",
-		icon: "markdown"
+		name:"LowLevel",
+		items:deviceSpec
 	},
 	{
-		name: "Linux System Admin",
-		icon: "linux"
+		name:"Web",
+		items:web
 	},
 	{
-		name: "Unity",
-		icon: "unity"
+		name:"Frameworks",
+		items:frameworks
 	},
 	{
-		name:"HTML",
-		icon: "html"
+		name:"Tools",
+		items:tools
 	},
 	{
-		name:"CSS",
-		icon: "css"
+		name:'Languages',
+		items:languages
 	},
+];
+
+//other
+	// {
+	// 	name: "Linux System Admin",
+	// 	icon: "linux"
+	// },
 	// {
 	// 	name:"Adobe Premiere Pro",
 	// 	icon: "premiere"
@@ -87,5 +153,3 @@ export default [
 	// 	name:"Adobe After Effects",
 	// 	icon: "aftereffects"
 	// },
-
-];
