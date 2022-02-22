@@ -24,13 +24,20 @@ html {
 	box-shadow:5px 5px 10px rgba(55, 55, 55, 0.55);
 }
 
+
+.header:hover > h3 {
+	color:rgb(18, 182, 128);
+}
 .header {
   display: flex;
 
   /* flex-direction: column;
   justify-content: flex-start; */
 	flex-direction:row;
-	align-items:center;
+
+	/* align-items:center; */
+	align-items:flex-end;
+
 	justify-content:space-between;
 
 	text-align:center;
@@ -43,6 +50,10 @@ html {
 	padding:0;
 }
 
+
+.header > h3 {
+	padding-bottom:2px;
+}
 
 h1, h3{
 	margin:auto;
@@ -189,10 +200,16 @@ a, a:hover, a:visited, a:active {
 	width:100%;
 	margin:0;
 	font-size:small;
-	margin-bottom:15px;
+	margin-bottom:12px;
 }
 
+
+.experience:hover > .title {
+	color:rgb(18, 182, 128);
+}
 .experience > .title {
+	transition-duration:200ms;
+	-webkit-transition-duration:200ms;
 	font-size:medium;
 	margin:0;
 }
@@ -207,7 +224,17 @@ a, a:hover, a:visited, a:active {
 	margin-top:5px;
 }
 
-.experience > li {
+.experience >  ul {
+	list-style-position:outside;
+	padding:0;
+	margin:0;
+	margin-block-end:0px;
+	margin-inline-start:1em;
+	margin-block-start:0;
+}
+
+.experience > ul > li {
  padding-left:4px;
  font-weight:600;
+ margin-bottom:4px;
 }

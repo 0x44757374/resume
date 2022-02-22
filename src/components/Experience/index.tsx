@@ -19,7 +19,9 @@ const ExperienceSection = ({title, company, location, dates, description, bullet
 		<p>
 			{description}
 		</p>
-		<For each={bullets}>{(text:string)=><li>{text}</li>}</For>
+		<ul>
+			<For each={bullets}>{(text:string)=><li>{text}</li>}</For>
+		</ul>
 	</div>
 }
 

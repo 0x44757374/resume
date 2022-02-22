@@ -23,7 +23,7 @@ export default [
 		bullets: [
 			'Improved memory efficiency by 83% on crucial binary data transfers from remote embedded system to mobile configuration application by creating custom iOS and Android native module for serialization.',
 			'Resolved firmware compatibility, and client device conflicts by developing a secure user application server with SSR on-device in embedded C.',
-			'Developed real-time logging, validation, and analysis tool for machine learning data ingestion.',
+			// 'Developed real-time logging, validation, and analysis tool for machine learning data ingestion.',
 			'Launched BLE snow sensor application for iOS and Android with FOTA, dev tools, configuration tools, security provisioning, and data logging + visualization.'
 		]
 	},
