@@ -53,7 +53,7 @@ interface IconSVGProps {
 }
 
 export const Icon = (props: IconProps & IconSVGProps)=>{
-	return icons[props.name]?.(props);
+	return icons[props.name]?.(props) ?? props?.name;
 }
 
 export default Icon;

@@ -32,7 +32,7 @@ export default [
 		company: "SensorLogic",
 		location: "Bozeman, MT",
 		dates: "2018 - 2019",
-		description: "UI/UX development for Mobile and Desktop applications connecting to emedded Linux and RTOS sensors.",
+		description: "UI/UX development for Mobile and Desktop applications connecting to embedded Linux and RTOS sensors.",
 		bullets: [
 			'Improved embedded UWB radar firmware iteration speed by 30% by bypassing existing radar control system and data logging, in favor of real-time system.',
 			'Eliminated sensor data aggregation overhead by creating a real-time multi-sensor configuration & data streaming application.',
